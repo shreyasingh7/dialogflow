@@ -1,25 +1,14 @@
 {
-  "name": "dialogflow",
+  "name": "webhook-echo-sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webhook echo sample",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shreyasingh7/dialogflow.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shreyasingh7/dialogflow/issues"
-  },
-  "homepage": "https://github.com/shreyasingh7/dialogflow#readme",
+  "author": "Sunil Syal",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
   }
 }
